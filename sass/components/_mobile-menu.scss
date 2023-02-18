@@ -1,0 +1,145 @@
+.menu-toggle{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+
+    &.js-close-menu{
+        @extend %tr-bg;
+        width: 24px;
+        height: 24px;
+        border: 1px solid $modal-button-border-color;
+    border-radius: 50%;
+    
+    background: $modal-button-bgc;
+    }
+
+    @media screen and (min-width: 768px){
+        display: none;
+    }
+
+}
+
+.js-close-menu:hover,
+.js-close-menu:focus{
+    background-color: $hover;
+}
+
+
+.icon-burger{
+   fill: transparent;
+
+}
+
+
+
+
+.menu-container{
+    position: fixed;
+display: flex;
+flex-direction: column;
+//    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(100%);
+    z-index: 999;
+    padding: 80px 40px 40px;
+
+    background-color: $page-bgc;
+
+   @extend %tr-tf;
+    
+   &.is-open{
+    transform: translateX(0);
+   }
+
+}
+
+.menu-container .menu-toggle{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+
+.mobile-link-item{
+    margin-bottom: 40px;
+}
+
+.link.mobile{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: $link-color;
+@extend %tr-c;
+
+&:hover,
+&:focus{
+    color: $nav-hover-color;
+}
+
+}
+
+
+
+.mobile-address{
+    margin-top: auto;
+
+    &-item:not(:last-child){
+        margin-bottom: 40px;
+    }
+    &-item:last-child{
+        margin-bottom: 48px;
+    }
+
+& .mobile-tel{
+
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+color: $accent;
+@extend %tr-c;
+
+@media screen and (max-width:427px){
+    font-size: 24px;
+}
+
+    }
+
+   .mobile-tel:hover,
+   .mobile-tel:focus{
+    color: $hover;
+   }
+
+   
+
+
+
+    & .mobile-mail{
+        font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+    }
+
+    .mobile-mail:hover,
+   .mobile-mail:focus{
+    color: $hover;
+   }
+
+}
+
+.social-media.mob{
+    justify-content: space-between;
+}

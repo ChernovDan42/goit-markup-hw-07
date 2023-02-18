@@ -1,0 +1,30 @@
+.button{
+    padding: 16px 32px;
+    border-color: transparent;
+    background-color: $primery-btn-bgc;
+    color: $primery-btn-text-color;
+    border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+
+  font-weight: 500;
+
+@extend %tr-bg;
+
+    &:hover,
+    &:focus{
+        background-color: $primery-btn-hover;
+    }
+
+    
+
+
+
+
+
+    
+  
+  
+}

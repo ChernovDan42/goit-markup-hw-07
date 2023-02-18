@@ -1,0 +1,37 @@
+.social-media{
+    display: flex;
+  
+  
+
+
+    &.link{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $primery-social-link-color;
+    }
+
+    &.link:hover,
+    &.link:focus{
+        background-color: $primery-social-link-hover;
+    }
+}
+
+.social-media-item:nth-child(1){
+    margin-left: 16px;
+  }
+  
+  .social-media-item:not(:nth-child(1)){
+  margin-left: 24px;
+  }
+
+  .team-card .image{
+    margin-bottom: 32px;
+  }

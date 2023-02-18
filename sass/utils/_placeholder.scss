@@ -4,3 +4,22 @@
     margin: 0;
 }
 
+%tr-c{
+   transition: color 250ms $cubic-time-function;
+}
+
+%tr-bg{
+    transition: background-color 250ms $cubic-time-function;
+ }
+
+ %tr-tf{
+    transition: transform 250ms $cubic-time-function;
+ }
+
+ %tr-f{
+   transition: fill 250ms $cubic-time-function;
+ }
+
+ %tr-bc{
+   transition: border-color 250ms $cubic-time-function;
+ }

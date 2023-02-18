@@ -799,6 +799,7 @@ height: 100%;
 
 /* Modal */
 .modal{
+
   position: absolute;
 
   top: 50px;
@@ -952,6 +953,7 @@ letter-spacing: 0.02em;
   
 }
 
+
 .chek-icon{
   width: 10px;
   height: 8px;
@@ -1003,3 +1005,6 @@ border-radius: 2px;
   width: 169px;
   margin-top: 24px;
 }
+
+
+

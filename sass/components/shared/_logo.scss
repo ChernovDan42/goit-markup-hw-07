@@ -1,0 +1,38 @@
+// Header
+
+.logo{
+
+padding-top: 24px;
+padding-bottom: 24px;
+
+    font-family: 'Raleway',sans-serif;
+
+font-weight: 800;
+font-size: 18px;
+line-height: 1.1666;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: $logo-text-color;
+text-decoration: none;
+
+@media screen and (min-width: 768px){
+    margin-right: 123px;
+}
+
+@media screen and (min-width: 1158px){
+line-height: 1.33;
+margin-right: 76px;
+
+}
+    
+}
+
+.web{
+    color: $accent-logo-text-color;
+}
+
+.footer-logo{
+    color: $secondary-logo-text-color;
+}

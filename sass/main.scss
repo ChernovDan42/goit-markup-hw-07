@@ -1,7 +1,23 @@
-@import "./utils/variables";
+@import "./base/variables";
 @import "./base/modern-normalize";
+@import "./utils/placeholder";
+@import "./components/container";
 @import "./base/main-styles";
-
+@import "./components/header";
 @import "./components/shared/logo";
-@import "./components/shared/logo-footer"
+@import "./components/mobile-menu";
+@import "./components/shared/social-media-list";
+@import "./components/hero";
+@import "./components/shared/buttons";
+@import "./components/modal";
+@import "./components/features";
+@import "./components/about";
+@import "./components/team-section";
+
+
+
+
+
+
+
 

@@ -1,0 +1,11 @@
+.section.about{
+    @media screen and (max-width: 1157px) {
+        display: none;
+    }
+}
+
+
+.list.about{
+    display: flex;
+    justify-content: space-between;
+}
