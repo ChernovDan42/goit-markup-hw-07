@@ -39,7 +39,7 @@
     position: fixed;
 display: flex;
 flex-direction: column;
-//    overflow-y: scroll;
+   overflow-y: scroll;
     top: 0;
     left: 0;
     width: 100%;
@@ -143,3 +143,9 @@ letter-spacing: 0.02em;
 .social-media.mob{
     justify-content: space-between;
 }
+
+.social-media.mob .social-media-item.mob{
+    margin-left: 0;
+}
+
+

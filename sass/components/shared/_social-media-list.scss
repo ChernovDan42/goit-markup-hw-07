@@ -8,14 +8,14 @@
 display: flex;
 justify-content: center;
 align-items: center;
-
-
-
+margin-bottom: 32px;
 
         width: 40px;
         height: 40px;
         border-radius: 50%;
         background-color: $primery-social-link-color;
+
+        @extend %tr-bg;
     }
 
     &.link:hover,

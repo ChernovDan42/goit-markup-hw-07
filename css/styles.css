@@ -474,6 +474,7 @@ margin-left: 24px;
   border: 1px solid var(--client-border-color);
   border-radius: 4px;
 color: var(--client-border-color);
+
  transition-timing-function: var(--cubic-time-function),var(--cubic-time-function);
  transition-duration: 250ms,250ms;
 
