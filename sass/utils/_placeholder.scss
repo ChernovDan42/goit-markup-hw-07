@@ -23,3 +23,7 @@
  %tr-bc{
    transition: border-color 250ms $cubic-time-function;
  }
+
+ %tr-bsh{
+   transition: box-shadow 250ms $cubic-time-function;
+ }

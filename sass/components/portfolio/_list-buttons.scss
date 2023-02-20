@@ -1,0 +1,31 @@
+.list.buttons{
+    display: flex;
+    margin-bottom: auto;
+    margin-bottom: 48px;
+    
+
+    @media screen and (max-width: 767px){
+       flex-wrap: wrap;
+        max-width: 70%;
+        gap: 24px;
+        
+    }
+
+      @media screen and (min-width: 768px){
+       justify-content: center;
+       margin-bottom: 64px;
+    }
+
+    @media screen and (min-width: 1158px){
+       margin-bottom: 72px;
+    }
+
+
+}
+
+.secondary.button{
+    @media screen and (min-width: 768px){
+       margin-right: 24px;
+    }
+    
+}

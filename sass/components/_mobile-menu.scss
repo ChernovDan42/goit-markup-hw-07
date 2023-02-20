@@ -33,8 +33,6 @@
 }
 
 
-
-
 .menu-container{
     position: fixed;
 display: flex;
@@ -46,7 +44,7 @@ flex-direction: column;
     height: 100%;
     transform: translateX(100%);
     z-index: 999;
-    padding: 80px 40px 40px;
+    padding: 80px 40px 0 40px ;
 
     background-color: $page-bgc;
 
@@ -87,10 +85,11 @@ color: $link-color;
 
 }
 
-
+.mobile-menu{
+    margin-bottom: auto;
+}
 
 .mobile-address{
-    margin-top: auto;
 
     &-item:not(:last-child){
         margin-bottom: 40px;
@@ -120,9 +119,6 @@ color: $accent;
     color: $hover;
    }
 
-   
-
-
 
     & .mobile-mail{
         font-style: normal;
@@ -142,10 +138,10 @@ letter-spacing: 0.02em;
 
 .social-media.mob{
     justify-content: space-between;
-}
 
-.social-media.mob .social-media-item.mob{
+& .social-media-item.mob{
     margin-left: 0;
+}
 }
 
 
