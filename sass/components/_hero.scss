@@ -16,14 +16,14 @@
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   ),
-  url(../Image/hero/people-office_mob@1x.jpg);
+  url(../../Image/hero/people-office_tab@1x.jpg);
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
     background-image: linear-gradient(
     to right,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
-  ), url(../Image/hero/people-office_mob@2x.jpg);
+  ), url(../../Image/hero/people-office_mob@2x.jpg);
   }
 
   @media screen and (min-width: 481px){
@@ -31,14 +31,14 @@
     to right,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
-  ), url(../Image/hero/people-office_tab@1x.jpg);
+  ), url(../../Image/hero/people-office_tab@1x.jpg);
 
      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
         background-image: linear-gradient(
     to right,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
-  ), url(../Image/hero/people-office_tab@2x.jpg);
+  ), url(../../Image/hero/people-office_tab@2x.jpg);
      }
   }
 
@@ -47,14 +47,14 @@
     to right,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
-  ), url(../Image/hero/people-office_deck@1x.jpg);
+  ), url(../../Image/hero/people-office_deck@1x.jpg);
 
      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx){
         background-image: linear-gradient(
     to right,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
-  ), url(../Image/hero/people-office_desk@2x.jpg);
+  ), url(../../Image/hero/people-office_desk@2x.jpg);
      }
   }
 
