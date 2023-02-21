@@ -627,7 +627,7 @@ ul {
   right: 24px;
 }
 
-.mobile-link-item {
+.mobile-link-item:not(:last-child) {
   margin-bottom: 40px;
 }
 
@@ -643,7 +643,7 @@ ul {
   color: #404BBF;
 }
 
-.mobile-menu {
+.mobile-menu-nav {
   margin-bottom: auto;
 }
 
@@ -653,6 +653,7 @@ ul {
 .mobile-address-item:last-child {
   margin-bottom: 48px;
 }
+
 .mobile-address .mobile-tel {
   font-style: normal;
   font-weight: 600;
@@ -666,10 +667,11 @@ ul {
     font-size: 24px;
   }
 }
-.mobile-address .mobile-tel:hover,
-.mobile-address .mobile-tel:focus {
+.mobile-address .mobile-tel .mobile-tel:hover,
+.mobile-address .mobile-tel .mobile-tel:focus {
   color: #404BBF;
 }
+
 .mobile-address .mobile-mail {
   font-style: normal;
   font-weight: 500;
@@ -677,8 +679,9 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.mobile-address .mobile-mail:hover,
-.mobile-address .mobile-mail:focus {
+
+.mobile-mail:hover,
+.mobile-mail:focus {
   color: #404BBF;
 }
 
@@ -777,7 +780,7 @@ ul {
 }
 @media screen and (min-width: 1158px) {
   .hero {
-    padding: 118px 0;
+    padding: 188px 0;
   }
 }
 
@@ -807,14 +810,6 @@ ul {
   .hero-title {
     margin-bottom: 48px;
   }
-}
-
-.hero-title-container {
-  min-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .button {
@@ -1300,7 +1295,8 @@ ul {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 0 108px;
+    width: 584px;
+    padding: 0 16px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1422,6 +1418,7 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
+  outline: transparent;
   color: #fff;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));

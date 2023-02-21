@@ -13,7 +13,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .nav{
-    // min-height: 70px;
+    
     display: flex;
     
     align-items: center;
@@ -21,11 +21,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     @media screen and (max-width: 767px){
         justify-content: space-between;
   }
-    
-//   @media screen and (min-width:1158px){
-//     min-height: 78px;
-//   }
-            
+         
 }
 
 

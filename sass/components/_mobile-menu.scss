@@ -63,7 +63,7 @@ flex-direction: column;
 }
 
 
-.mobile-link-item{
+.mobile-link-item:not(:last-child){
     margin-bottom: 40px;
 }
 
@@ -85,7 +85,7 @@ color: $link-color;
 
 }
 
-.mobile-menu{
+.mobile-menu-nav{
     margin-bottom: auto;
 }
 
@@ -97,8 +97,9 @@ color: $link-color;
     &-item:last-child{
         margin-bottom: 48px;
     }
+}
 
-& .mobile-tel{
+.mobile-address .mobile-tel{
 
 font-style: normal;
 font-weight: 600;
@@ -112,29 +113,28 @@ color: $accent;
     font-size: 24px;
 }
 
-    }
 
    .mobile-tel:hover,
    .mobile-tel:focus{
     color: $hover;
    }
 
+}
 
-    & .mobile-mail{
+
+    .mobile-address .mobile-mail{
         font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-
-    }
+ }
 
     .mobile-mail:hover,
    .mobile-mail:focus{
     color: $hover;
    }
 
-}
 
 .social-media.mob{
     justify-content: space-between;
